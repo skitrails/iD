@@ -8113,10 +8113,11 @@
         "piste": {
             "icon": "skiing",
             "fields": [
+                "piste/name",
                 "piste/type",
                 "piste/difficulty",
                 "piste/grooming",
-                "oneway",
+                "piste/oneway",
                 "lit"
             ],
             "geometry": [
@@ -8134,8 +8135,9 @@
                 "snowmobile"
             ],
             "tags": {
-                "piste:type": "*"
+                "piste:type": "nordic"
             },
+            "matchScore": 5,
             "name": "Piste/Ski Trail"
         },
         "place/city": {

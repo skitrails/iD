@@ -966,8 +966,8 @@
         "name": {
             "key": "name",
             "type": "localized",
-            "label": "Name",
-            "placeholder": "Common name (if any)"
+            "label": "Summer Name",
+            "placeholder": "Common summer name (if any)"
         },
         "natural": {
             "key": "natural",
@@ -1160,17 +1160,36 @@
                 }
             }
         },
+        "piste/name": {
+            "key": "piste:name",
+            "type": "localized",
+            "label": "Winter Trail Name",
+            "placeholder": "Winter Trail name (if different to summer)"
+        },
+        "piste/oneway": {
+            "key": "piste:oneway",
+            "type": "check",
+            "label": "One Way trail",
+            "strings": {
+                "options": {
+                    "undefined": "Assumed to be No",
+                    "yes": "Yes",
+                    "no": "No"
+                }
+            }
+        },
         "piste/type": {
             "key": "piste:type",
             "type": "typeCombo",
             "label": "Type",
+            "default": "nordic",
             "strings": {
                 "options": {
-                    "downhill": "Downhill",
-                    "nordic": "Nordic",
-                    "skitour": "Skitour",
+                    "nordic": "Nordic Ski",
+                    "hike": "Hike/Snowshoe only",
+                    "downhill": "Downhill ski",
+                    "skitour": "Skitour/backcountry",
                     "sled": "Sled",
-                    "hike": "Hike",
                     "sleigh": "Sleigh",
                     "ice_skate": "Ice Skate",
                     "snow_park": "Snow Park",

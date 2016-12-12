@@ -12,6 +12,7 @@
             "area"
         ],
         "line": [
+            "category-piste",
             "category-road",
             "category-rail",
             "category-path",

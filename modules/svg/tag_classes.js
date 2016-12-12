@@ -4,7 +4,7 @@ import { osmPavedTags } from '../osm/tags';
 
 export function svgTagClasses() {
     var primaries = [
-            'building', 'highway', 'railway', 'waterway', 'aeroway',
+            'piste:type', 'piste:bike', 'building', 'highway', 'railway', 'waterway', 'aeroway',
             'motorway', 'boundary', 'power', 'amenity', 'natural', 'landuse',
             'leisure', 'place'
         ],
@@ -13,7 +13,7 @@ export function svgTagClasses() {
             'razed', 'demolished', 'obliterated'
         ],
         secondaries = [
-            'oneway', 'bridge', 'tunnel', 'embankment', 'cutting', 'barrier',
+            'piste:difficulty', 'oneway', 'bridge', 'tunnel', 'embankment', 'cutting', 'barrier',
             'surface', 'tracktype', 'crossing'
         ],
         tagClassRe = /^tag-/,

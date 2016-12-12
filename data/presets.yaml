@@ -11,6 +11,8 @@ en:
         name: Land Use Features
       category-path:
         name: Path Features
+      category-piste:
+        name: Piste Features
       category-rail:
         name: Rail Features
       category-restriction:
@@ -706,9 +708,9 @@ en:
         placeholder: '0, 1, 2, 3...'
       name:
         # name=*
-        label: Name
+        label: Summer Name
         # name field placeholder
-        placeholder: Common name (if any)
+        placeholder: Common summer name (if any)
       natural:
         # natural=*
         label: Natural
@@ -873,22 +875,37 @@ en:
           scooter: Scooter/Snowmobile
           # 'piste:grooming=skating'
           skating: Skating
+      piste/name:
+        # 'piste:name=*'
+        label: Winter Trail Name
+        # piste/name field placeholder
+        placeholder: Winter Trail name (if different to summer)
+      piste/oneway:
+        # 'piste:oneway=*'
+        label: One Way trail
+        options:
+          # 'piste:oneway=no'
+          'no': 'No'
+          # 'piste:oneway=undefined'
+          undefined: Assumed to be No
+          # 'piste:oneway=yes'
+          'yes': 'Yes'
       piste/type:
         # 'piste:type=*'
         label: Type
         options:
           # 'piste:type=downhill'
-          downhill: Downhill
+          downhill: Downhill ski
           # 'piste:type=hike'
-          hike: Hike
+          hike: Hike/Snowshoe only
           # 'piste:type=ice_skate'
           ice_skate: Ice Skate
           # 'piste:type=nordic'
-          nordic: Nordic
+          nordic: Nordic Ski
           # 'piste:type=playground'
           playground: Playground
           # 'piste:type=skitour'
-          skitour: Skitour
+          skitour: Skitour/backcountry
           # 'piste:type=sled'
           sled: Sled
           # 'piste:type=sleigh'
@@ -3251,7 +3268,7 @@ en:
         # office=travel_agent
         name: Travel Agency
       piste:
-        # 'piste:type=*'
+        # 'piste:type=nordic'
         name: Piste/Ski Trail
         # 'terms: ski,sled,sleigh,snowboard,nordic,downhill,snowmobile'
         terms: '<translate with synonyms or related terms for ''Piste/Ski Trail'', separated by commas>'

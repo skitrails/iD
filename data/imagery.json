@@ -59428,6 +59428,30 @@
             ],
             "terms_url": "https://data.wien.gv.at/",
             "terms_text": "Stadt Wien"
+        },
+        {
+            "id": "skitrails-raw-gps",
+            "name": "SkiTrails Raw GPS (archived)",
+            "type": "tms",
+            "overlay": true,
+            "default": true,
+            "template": "//{switch:a,b,c}.tiles.skitrails.info/probes/{zoom}/{x}/{y}.png",
+            "scaleExtent": [
+                6,
+                20
+            ]
+        },
+        {
+            "id": "skitrails-raw-gps-today",
+            "name": "SkiTrails Raw GPS (today)",
+            "type": "tms",
+            "overlay": true,
+            "default": true,
+            "template": "//{switch:a,b,c}.tiles.skitrails.info/probes-recent/{zoom}/{x}/{y}.png",
+            "scaleExtent": [
+                6,
+                20
+            ]
         }
     ]
 }

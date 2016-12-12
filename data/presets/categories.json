@@ -71,6 +71,14 @@
                 "highway/bridleway"
             ]
         },
+        "category-piste": {
+            "geometry": "line",
+            "name": "Piste Features",
+            "icon": "category-piste",
+            "members": [
+                "piste"
+            ]
+        },
         "category-rail": {
             "geometry": "line",
             "name": "Rail Features",

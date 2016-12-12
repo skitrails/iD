@@ -633,6 +633,9 @@
                 "category-path": {
                     "name": "Path Features"
                 },
+                "category-piste": {
+                    "name": "Piste Features"
+                },
                 "category-rail": {
                     "name": "Rail Features"
                 },
@@ -1244,8 +1247,8 @@
                     }
                 },
                 "name": {
-                    "label": "Name",
-                    "placeholder": "Common name (if any)"
+                    "label": "Summer Name",
+                    "placeholder": "Common summer name (if any)"
                 },
                 "natural": {
                     "label": "Natural"
@@ -1374,14 +1377,26 @@
                         "skating": "Skating"
                     }
                 },
+                "piste/name": {
+                    "label": "Winter Trail Name",
+                    "placeholder": "Winter Trail name (if different to summer)"
+                },
+                "piste/oneway": {
+                    "label": "One Way trail",
+                    "options": {
+                        "undefined": "Assumed to be No",
+                        "yes": "Yes",
+                        "no": "No"
+                    }
+                },
                 "piste/type": {
                     "label": "Type",
                     "options": {
-                        "downhill": "Downhill",
-                        "nordic": "Nordic",
-                        "skitour": "Skitour",
+                        "nordic": "Nordic Ski",
+                        "hike": "Hike/Snowshoe only",
+                        "downhill": "Downhill ski",
+                        "skitour": "Skitour/backcountry",
                         "sled": "Sled",
-                        "hike": "Hike",
                         "sleigh": "Sleigh",
                         "ice_skate": "Ice Skate",
                         "snow_park": "Snow Park",

@@ -1,0 +1,8 @@
+{
+    "geometry": "line",
+    "name": "Piste Features",
+    "icon": "category-piste",
+    "members": [
+        "piste"
+    ]
+}

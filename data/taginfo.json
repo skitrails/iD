@@ -1841,7 +1841,8 @@
             "value": "therapist"
         },
         {
-            "key": "piste:type"
+            "key": "piste:type",
+            "value": "nordic"
         },
         {
             "key": "place",

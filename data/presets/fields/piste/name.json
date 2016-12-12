@@ -1,0 +1,6 @@
+{
+    "key": "piste:name",
+    "type": "localized",
+    "label": "Winter Trail Name",
+    "placeholder": "Winter Trail name (if different to summer)"
+}

@@ -1637,3 +1637,34 @@ text.gpx {
     stroke-width: 60px;
     pointer-events: visibleStroke;
 }
+
+/*******************************************************
+ SkiTrails additions
+ *******************************************************/
+
+path.shadow.tag-piste\3Atype-nordic {
+    stroke-width:16;
+}
+path.casing.tag-piste\3Atype-nordic {
+    stroke:#444;
+    stroke-width:10;
+}
+path.stroke.tag-piste\3Atype-nordic {
+    stroke:#ccc;
+    stroke-width:4;
+}
+
+path.casing.tag-piste\3A difficulty-easy, path.casing.tag-piste\3A difficulty-novice {
+    stroke:#393;
+    stroke-width:10;
+}
+
+path.casing.tag-piste\3A difficulty-intermediate {
+    stroke:#339;
+    stroke-width:10;
+}
+
+path.casing.tag-piste\3A difficulty-advanced, path.casing.tag-piste\3A difficulty-expert {
+    stroke:#000;
+    stroke-width:10;
+}

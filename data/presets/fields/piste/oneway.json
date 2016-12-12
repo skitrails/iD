@@ -1,0 +1,12 @@
+{
+    "key": "piste:oneway",
+    "type": "check",
+    "label": "One Way trail",
+    "strings": {
+        "options": {
+            "undefined": "Assumed to be No",
+            "yes": "Yes",
+            "no": "No"
+        }
+    }
+}

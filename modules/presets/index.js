@@ -72,7 +72,7 @@ export function presetIndex() {
     // and the subkeys form the blacklist.
     all.areaKeys = function() {
         var areaKeys = {},
-            ignore = ['barrier', 'highway', 'footway', 'railway', 'type'],
+            ignore = ['piste:type', 'barrier', 'highway', 'footway', 'railway', 'type'],
             presets = _.reject(all.collection, 'suggestion');
 
         // whitelist
