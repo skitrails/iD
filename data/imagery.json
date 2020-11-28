@@ -59435,19 +59435,19 @@
             "type": "tms",
             "overlay": true,
             "default": true,
-            "template": "//{switch:a,b,c}.tiles.skitrails.info/probes/{zoom}/{x}/{y}.png",
+            "template": "//{switch:a,b,c}.tiles.skitrails.com/probes/{zoom}/{x}/{y}.png",
             "scaleExtent": [
                 6,
                 20
             ]
         },
         {
-            "id": "skitrails-raw-gps-today",
-            "name": "SkiTrails Raw GPS (today)",
+            "id": "skitrails-raw-gps-lastweek",
+            "name": "SkiTrails Raw GPS (this week)",
             "type": "tms",
             "overlay": true,
             "default": true,
-            "template": "//{switch:a,b,c}.tiles.skitrails.info/probes-recent/{zoom}/{x}/{y}.png",
+            "template": "//{switch:a,b,c}.tiles.skitrails.com/probes-recent/{zoom}/{x}/{y}.png",
             "scaleExtent": [
                 6,
                 20
